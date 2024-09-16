@@ -1,0 +1,1 @@
+var gamefiles = ['Her_six_heartbeats.ags', 'acsetup.cfg'];
