@@ -656,6 +656,22 @@
             <Description IsNull="True" />
             <Number>1</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>2</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>3</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>4</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>5</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -2754,10 +2770,10 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>1</ID>
-        <Image>2056</Image>
+        <Image>10</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2767,8 +2783,8 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>2</ID>
         <Image>2057</Image>
         <Name>Interact</Name>
@@ -2780,10 +2796,10 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>3</ID>
-        <Image>2058</Image>
+        <Image>11</Image>
         <Name xml:space="preserve">Talk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2864,6 +2880,19 @@
         <Image>2054</Image>
         <Name>Usermode2</Name>
         <StandardMode>False</StandardMode>
+        <View>0</View>
+      </MouseCursor>
+      <MouseCursor>
+        <Animate>False</Animate>
+        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
+        <AnimationDelay>5</AnimationDelay>
+        <HotspotX>15</HotspotX>
+        <HotspotY>14</HotspotY>
+        <ID>10</ID>
+        <Image>9</Image>
+        <Name>Drag</Name>
+        <StandardMode>True</StandardMode>
         <View>0</View>
       </MouseCursor>
     </Cursors>
@@ -3170,7 +3199,18 @@
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables />
+      <Variables>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>isDragging</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue />
+          <Name>draggedObject</Name>
+          <Type>Object*</Type>
+        </GlobalVariable>
+      </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
@@ -4780,6 +4820,56 @@
             <SubFolders>
               <SpriteFolder Name="Heartbeats">
                 <SubFolders>
+                  <SpriteFolder Name="Cursors">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="9" Width="28" Height="28" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\Claw_drag.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>28</ImportHeight>
+                          <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="10" Width="27" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\Demoneye.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>27</ImportHeight>
+                          <ImportWidth>27</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="11" Width="28" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\Demon_lang.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>27</ImportHeight>
+                          <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
                   <SpriteFolder Name="New folder">
                     <SubFolders />
                     <Sprites />
