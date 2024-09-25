@@ -1929,7 +1929,7 @@
           </GUIMain>
           <GUIMain>
             <TextWindowGUI>
-              <BackgroundColor>19248</BackgroundColor>
+              <BackgroundColor>44142</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>7</ID>
               <Name>gTextBorder</Name>
@@ -1942,7 +1942,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>0</ID>
-                <Image>2150</Image>
+                <Image>17</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -1957,7 +1957,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>1</ID>
-                <Image>2155</Image>
+                <Image>12</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -1972,7 +1972,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>2</ID>
-                <Image>2152</Image>
+                <Image>19</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -1987,7 +1987,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>3</ID>
-                <Image>2157</Image>
+                <Image>14</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2002,7 +2002,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>4</ID>
-                <Image>2153</Image>
+                <Image>15</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2017,7 +2017,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>5</ID>
-                <Image>2154</Image>
+                <Image>16</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2032,7 +2032,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>6</ID>
-                <Image>2151</Image>
+                <Image>18</Image>
                 <Left>40</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2047,7 +2047,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>7</ID>
-                <Image>2156</Image>
+                <Image>13</Image>
                 <Left>40</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2799,7 +2799,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>3</ID>
-        <Image>11</Image>
+        <Image>22</Image>
         <Name xml:space="preserve">Talk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -4080,6 +4080,36 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="20" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\apoteat1\Downloads\CORNER.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="21" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\apoteat1\Downloads\CORNER-1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="UI">
@@ -4868,11 +4898,147 @@
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="22" Width="28" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\Demon_lang_blue.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>27</ImportHeight>
+                          <ImportWidth>28</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
-                  <SpriteFolder Name="New folder">
+                  <SpriteFolder Name="Text box">
                     <SubFolders />
-                    <Sprites />
+                    <Sprites>
+                      <Sprite Slot="12" Width="13" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Downloads\TextBox\TextBox\BottomL.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>10</ImportHeight>
+                          <ImportWidth>13</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="13" Width="19" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Downloads\TextBox\TextBox\BottomMid.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>16</ImportHeight>
+                          <ImportWidth>19</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="14" Width="17" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Downloads\TextBox\TextBox\BottomR.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>12</ImportHeight>
+                          <ImportWidth>17</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="15" Width="13" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Downloads\TextBox\TextBox\LeftMid.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>6</ImportHeight>
+                          <ImportWidth>13</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="16" Width="13" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Downloads\TextBox\TextBox\RightMid.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>6</ImportHeight>
+                          <ImportWidth>13</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="17" Width="13" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Downloads\TextBox\TextBox\TopLCorner.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>12</ImportHeight>
+                          <ImportWidth>13</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="18" Width="19" Height="16" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Downloads\TextBox\TextBox\TopMid.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>16</ImportHeight>
+                          <ImportWidth>19</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="19" Width="17" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Downloads\TextBox\TextBox\TopRight.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>12</ImportHeight>
+                          <ImportWidth>17</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
                   </SpriteFolder>
                 </SubFolders>
                 <Sprites>
