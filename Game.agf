@@ -2835,10 +2835,10 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>6</ID>
-        <Image>2061</Image>
+        <Image>23</Image>
         <Name>Pointer</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -2848,10 +2848,10 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>6</HotspotX>
-        <HotspotY>10</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>7</ID>
-        <Image>2055</Image>
+        <Image>11</Image>
         <Name>Wait</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -4883,9 +4883,9 @@
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="11" Width="28" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="22" Width="28" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\Demon_lang.png</FileName>
+                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\Demon_lang_blue.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>27</ImportHeight>
@@ -4898,13 +4898,28 @@
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
-                      <Sprite Slot="22" Width="28" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                      <Sprite Slot="11" Width="14" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                         <Source>
-                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\Demon_lang_blue.png</FileName>
+                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\Hourglass.png</FileName>
                           <OffsetX>0</OffsetX>
                           <OffsetY>0</OffsetY>
-                          <ImportHeight>27</ImportHeight>
-                          <ImportWidth>28</ImportWidth>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>14</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="23" Width="12" Height="12" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\Heartbeats_hearts\pointer.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>12</ImportHeight>
+                          <ImportWidth>12</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
