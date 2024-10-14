@@ -1,1 +1,1 @@
-var gamefiles = ['Her_six_heartbeats.ags', 'acsetup.cfg'];
+var gamefiles = ['audio.vox', 'Her_six_heartbeats.ags', 'acsetup.cfg'];
