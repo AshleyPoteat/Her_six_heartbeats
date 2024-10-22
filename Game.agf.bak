@@ -2583,7 +2583,7 @@
             <ID>0</ID>
             <IdleAnimationDelay>9</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleView>1</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -2594,10 +2594,10 @@
             <ScriptName>cEgo</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>52</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>97</StartX>
-            <StartY>154</StartY>
+            <StartX>213</StartX>
+            <StartY>166</StartY>
             <StartingRoom>2</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2625,22 +2625,22 @@
             <ID>1</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleView>12</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
+            <NormalView>12</NormalView>
             <Properties />
             <RealName>Cassie</RealName>
             <ScriptName>cCass</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>58760</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>160</StartX>
             <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -2667,18 +2667,18 @@
             <ID>2</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleView>11</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
+            <NormalView>11</NormalView>
             <Properties />
             <RealName>Tiffany</RealName>
             <ScriptName>cTiff</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>13763</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>160</StartX>
             <StartY>120</StartY>
@@ -2893,6 +2893,48 @@
             <StartX>174</StartX>
             <StartY>118</StartY>
             <StartingRoom>7</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>8</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>10</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>10</NormalView>
+            <Properties />
+            <RealName xml:space="preserve">Orange candles</RealName>
+            <ScriptName>cCan</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>291</StartX>
+            <StartY>108</StartY>
+            <StartingRoom>2</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -5944,6 +5986,36 @@ stop]]></Script>
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="111" Width="40" Height="60" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\girl1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>60</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="112" Width="36" Height="72" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\girl2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>72</ImportHeight>
+                          <ImportWidth>36</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                   <SpriteFolder Name="deaths">
@@ -6546,6 +6618,116 @@ stop]]></Script>
                           <OffsetY>0</OffsetY>
                           <ImportHeight>80</ImportHeight>
                           <ImportWidth>80</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
+                  <SpriteFolder Name="candle anim">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="104" Width="30" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\candle_Anim_1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>30</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="105" Width="30" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\candle_anim_2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>30</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="106" Width="30" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\candle_anim_3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>30</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="107" Width="30" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\candle_anim_4.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>30</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="108" Width="30" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\candle_anim_5.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>30</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="109" Width="30" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\candle_anim_6.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>30</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="110" Width="30" Height="30" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\candle_anim_7.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>30</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
                           <ImportAsTile>False</ImportAsTile>
                           <Frame>0</Frame>
                           <RemapToGamePalette>False</RemapToGamePalette>
@@ -7172,6 +7354,198 @@ stop]]></Script>
                     <Flipped>False</Flipped>
                     <ID>3</ID>
                     <Image>93</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>10</ID>
+            <Name>ViewC</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>104</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>1</ID>
+                    <Image>105</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>2</ID>
+                    <Image>106</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>3</ID>
+                    <Image>107</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>108</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>5</ID>
+                    <Image>109</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>6</ID>
+                    <Image>110</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>11</ID>
+            <Name>View11</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>112</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>12</ID>
+            <Name>View12</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>111</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
