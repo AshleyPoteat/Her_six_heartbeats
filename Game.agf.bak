@@ -2157,47 +2157,11 @@
         <SubFolders />
         <InventoryItems>
           <InventoryItem>
-            <CursorImage>2041</CursorImage>
-            <Description xml:space="preserve">Blue Cup</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>1</HotspotY>
-            <ID>1</ID>
-            <Image>2041</Image>
-            <Name>iBlueCup</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <Properties />
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <CursorImage>2042</CursorImage>
-            <Description>Key</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>1</HotspotY>
-            <ID>2</ID>
-            <Image>2042</Image>
-            <Name>iKey</Name>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <Properties />
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
             <CursorImage>0</CursorImage>
             <Description xml:space="preserve">Shiny green gem</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>3</ID>
+            <ID>1</ID>
             <Image>63</Image>
             <Name>iCatseye</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2206,7 +2170,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3">iCatseye_UseInv</Event>
+              <Event Index="3" />
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -2215,8 +2179,8 @@
             <Description xml:space="preserve">Delicious blood lemonade</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>4</ID>
-            <Image>72</Image>
+            <ID>2</ID>
+            <Image>97</Image>
             <Name>iJuice</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
@@ -2224,7 +2188,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iJuice_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -2233,7 +2197,7 @@
             <Description xml:space="preserve">Sharp knife</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>5</ID>
+            <ID>3</ID>
             <Image>65</Image>
             <Name>iKnife</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2251,7 +2215,7 @@
             <Description xml:space="preserve">Rancid smelling bucket</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>6</ID>
+            <ID>4</ID>
             <Image>85</Image>
             <Name>iBucket</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2269,7 +2233,7 @@
             <Description xml:space="preserve">Old toaster</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>7</ID>
+            <ID>5</ID>
             <Image>79</Image>
             <Name>iToaster</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2287,7 +2251,7 @@
             <Description xml:space="preserve">Your blood looks beautiful on it</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>8</ID>
+            <ID>6</ID>
             <Image>62</Image>
             <Name>iBloodyknife</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2305,7 +2269,7 @@
             <Description xml:space="preserve">The eye looks at you</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>9</ID>
+            <ID>7</ID>
             <Image>64</Image>
             <Name>iDemonscissors</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2323,7 +2287,7 @@
             <Description xml:space="preserve">It moves in your hand</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>10</ID>
+            <ID>8</ID>
             <Image>87</Image>
             <Name>iElecBuck</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2341,7 +2305,7 @@
             <Description xml:space="preserve">It beats beautifully</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>11</ID>
+            <ID>9</ID>
             <Image>1</Image>
             <Name>iHeart</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2359,7 +2323,7 @@
             <Description xml:space="preserve">Bloody juice</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>12</ID>
+            <ID>10</ID>
             <Image>72</Image>
             <Name>iBloodjuice</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2377,7 +2341,7 @@
             <Description xml:space="preserve">A blood bag filled with moth blood</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>13</ID>
+            <ID>11</ID>
             <Image>98</Image>
             <Name>iBloodbag</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2395,7 +2359,7 @@
             <Description xml:space="preserve">Chitin eggs</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>14</ID>
+            <ID>12</ID>
             <Image>100</Image>
             <Name>iCoins</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2410,17 +2374,17 @@
           </InventoryItem>
           <InventoryItem>
             <CursorImage>0</CursorImage>
-            <Description xml:space="preserve">New inventory item</Description>
+            <Description xml:space="preserve">Blue pearls</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>15</ID>
+            <ID>13</ID>
             <Image>101</Image>
             <Name>iPearls</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
               <Event Index="0" />
-              <Event Index="1" />
+              <Event Index="1">iPearls_Interact</Event>
               <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
@@ -2431,7 +2395,7 @@
             <Description xml:space="preserve">a drop of blood</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>16</ID>
+            <ID>14</ID>
             <Image>102</Image>
             <Name>iBlooddrop</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2449,7 +2413,7 @@
             <Description xml:space="preserve">New inventory item</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>17</ID>
+            <ID>15</ID>
             <Image>96</Image>
             <Name>iDust</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2467,7 +2431,7 @@
             <Description>Spaghetti</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <ID>18</ID>
+            <ID>16</ID>
             <Image>89</Image>
             <Name>iSpagh</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
@@ -2955,7 +2919,7 @@
             <ID>7</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleView>9</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -3064,7 +3028,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">cEye_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
               <Event Index="6" />
@@ -3680,7 +3644,7 @@ return
         </GlobalVariable>
         <GlobalVariable>
           <DefaultValue>0</DefaultValue>
-          <Name>Level01</Name>
+          <Name>ItemUse</Name>
           <Type>int</Type>
         </GlobalVariable>
       </Variables>
