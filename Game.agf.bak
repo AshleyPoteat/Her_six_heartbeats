@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>4</AudioIndexer>
+      <AudioIndexer>7</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -682,1107 +682,172 @@
             <SubFolders />
             <GUIs>
               <GUIMain>
-                <TextWindowGUI>
-                  <BackgroundColor>0</BackgroundColor>
-                  <BackgroundImage>119</BackgroundImage>
-                  <ID>9</ID>
-                  <Name>gLO1</Name>
-                  <Padding>3</Padding>
-                  <TextColor>0</TextColor>
-                </TextWindowGUI>
-                <Controls>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>1</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>1</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>2</ID>
-                    <Image>0</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>2</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>3</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>3</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>4</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>4</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>5</ID>
-                    <Image>119</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>5</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>6</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>6</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>7</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>7</ZOrder>
-                  </GUITextWindowEdge>
-                </Controls>
-              </GUIMain>
-              <GUIMain>
-                <TextWindowGUI>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>120</BackgroundImage>
-                  <ID>10</ID>
-                  <Name>gLO2</Name>
-                  <Padding>3</Padding>
-                  <TextColor>0</TextColor>
-                </TextWindowGUI>
-                <Controls>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>1</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>1</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>2</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>2</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>3</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>3</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>4</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>4</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>5</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>5</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>6</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>6</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>7</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>7</ZOrder>
-                  </GUITextWindowEdge>
-                </Controls>
-              </GUIMain>
-              <GUIMain>
-                <TextWindowGUI>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>121</BackgroundImage>
-                  <ID>11</ID>
-                  <Name>gLO3</Name>
-                  <Padding>3</Padding>
-                  <TextColor>0</TextColor>
-                </TextWindowGUI>
-                <Controls>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>1</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>1</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>2</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>2</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>3</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>3</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>4</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>4</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>5</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>5</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>6</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>6</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>7</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>7</ZOrder>
-                  </GUITextWindowEdge>
-                </Controls>
-              </GUIMain>
-              <GUIMain>
-                <TextWindowGUI>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>122</BackgroundImage>
-                  <ID>12</ID>
-                  <Name>gLO4</Name>
-                  <Padding>3</Padding>
-                  <TextColor>0</TextColor>
-                </TextWindowGUI>
-                <Controls>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>1</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>1</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>2</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>2</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>3</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>3</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>4</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>4</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>5</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>5</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>6</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>6</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>7</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>7</ZOrder>
-                  </GUITextWindowEdge>
-                </Controls>
-              </GUIMain>
-              <GUIMain>
-                <TextWindowGUI>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>123</BackgroundImage>
-                  <ID>13</ID>
-                  <Name>gLO5</Name>
-                  <Padding>3</Padding>
-                  <TextColor>0</TextColor>
-                </TextWindowGUI>
-                <Controls>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>1</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>1</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>2</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>2</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>3</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>3</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>4</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>4</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>5</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>5</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>6</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>6</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>7</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>7</ZOrder>
-                  </GUITextWindowEdge>
-                </Controls>
-              </GUIMain>
-              <GUIMain>
-                <TextWindowGUI>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>124</BackgroundImage>
-                  <ID>14</ID>
-                  <Name>gLO6</Name>
-                  <Padding>3</Padding>
-                  <TextColor>0</TextColor>
-                </TextWindowGUI>
-                <Controls>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>1</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>1</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>2</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>2</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>3</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>3</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>4</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>4</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>5</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>5</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>6</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>6</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>7</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>7</ZOrder>
-                  </GUITextWindowEdge>
-                </Controls>
-              </GUIMain>
-              <GUIMain>
-                <TextWindowGUI>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>125</BackgroundImage>
-                  <ID>15</ID>
-                  <Name>gLO7</Name>
-                  <Padding>3</Padding>
-                  <TextColor>0</TextColor>
-                </TextWindowGUI>
-                <Controls>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>1</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>1</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>2</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>2</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>3</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>3</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>4</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>4</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>5</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>5</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>6</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>6</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>7</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>7</ZOrder>
-                  </GUITextWindowEdge>
-                </Controls>
-              </GUIMain>
-              <GUIMain>
-                <TextWindowGUI>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>126</BackgroundImage>
-                  <ID>16</ID>
-                  <Name>gLO8</Name>
-                  <Padding>3</Padding>
-                  <TextColor>0</TextColor>
-                </TextWindowGUI>
-                <Controls>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>0</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>1</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>1</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>2</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>2</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>3</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>3</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>4</ID>
-                    <Image>1</Image>
-                    <Left>0</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>4</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>5</ID>
-                    <Image>1</Image>
-                    <Left>90</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>40</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>5</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>6</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>0</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>6</ZOrder>
-                  </GUITextWindowEdge>
-                  <GUITextWindowEdge>
-                    <Clickable>True</Clickable>
-                    <Enabled>True</Enabled>
-                    <Height>10</Height>
-                    <ID>7</ID>
-                    <Image>1</Image>
-                    <Left>40</Left>
-                    <Locked>False</Locked>
-                    <Name />
-                    <Top>90</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>10</Width>
-                    <ZOrder>7</ZOrder>
-                  </GUITextWindowEdge>
-                </Controls>
-              </GUIMain>
-              <GUIMain>
                 <NormalGUI>
                   <BackgroundColor>0</BackgroundColor>
-                  <BackgroundImage>119</BackgroundImage>
+                  <BackgroundImage>147</BackgroundImage>
                   <BorderColor>2</BorderColor>
                   <Clickable>True</Clickable>
-                  <Height>200</Height>
-                  <ID>17</ID>
+                  <Height>150</Height>
+                  <ID>9</ID>
                   <Left>0</Left>
-                  <Name>gGui1</Name>
+                  <Name>gLO1</Name>
                   <OnClick />
                   <PopupStyle>Normal</PopupStyle>
                   <PopupYPos>0</PopupYPos>
                   <Top>0</Top>
                   <Transparency>0</Transparency>
-                  <Visible>True</Visible>
-                  <Width>320</Width>
+                  <Visible>False</Visible>
+                  <Width>150</Width>
                   <ZOrder>0</ZOrder>
                 </NormalGUI>
-                <Controls>
-                  <GUIButton>
-                    <ClickAction>RunScript</ClickAction>
-                    <Clickable>True</Clickable>
-                    <ClipImage>False</ClipImage>
-                    <Enabled>True</Enabled>
-                    <Font>0</Font>
-                    <Height>500</Height>
-                    <ID>0</ID>
-                    <Image>119</Image>
-                    <Left>35</Left>
-                    <Locked>False</Locked>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Name>Button1</Name>
-                    <NewModeNumber>0</NewModeNumber>
-                    <OnClick />
-                    <PushedImage>0</PushedImage>
-                    <Text xml:space="preserve">New Button</Text>
-                    <TextAlignment>TopCenter</TextAlignment>
-                    <TextColor>0</TextColor>
-                    <Top>25</Top>
-                    <Translated>True</Translated>
-                    <Visible>True</Visible>
-                    <Width>500</Width>
-                    <ZOrder>0</ZOrder>
-                  </GUIButton>
-                </Controls>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>148</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>150</Height>
+                  <ID>10</ID>
+                  <Left>0</Left>
+                  <Name>gLO2</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>150</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>149</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>150</Height>
+                  <ID>11</ID>
+                  <Left>0</Left>
+                  <Name>gLO3</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>150</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>150</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>150</Height>
+                  <ID>12</ID>
+                  <Left>0</Left>
+                  <Name>gLO4</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>150</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>151</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>150</Height>
+                  <ID>13</ID>
+                  <Left>0</Left>
+                  <Name>gLO5</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>150</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>156</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>150</Height>
+                  <ID>14</ID>
+                  <Left>0</Left>
+                  <Name>gLO6</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>150</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>157</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>150</Height>
+                  <ID>15</ID>
+                  <Left>0</Left>
+                  <Name>gLO7</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>150</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>154</BackgroundImage>
+                  <BorderColor>2</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>150</Height>
+                  <ID>16</ID>
+                  <Left>0</Left>
+                  <Name>gLO8</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>0</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>False</Visible>
+                  <Width>150</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
               </GUIMain>
             </GUIs>
           </GUIFolder>
@@ -1790,9 +855,9 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>32089</BackgroundColor>
+              <BackgroundColor>12469</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>32089</BorderColor>
+              <BorderColor>12469</BorderColor>
               <Clickable>True</Clickable>
               <Height>14</Height>
               <ID>0</ID>
@@ -1866,9 +931,9 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>32089</BackgroundColor>
+              <BackgroundColor>12469</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>32089</BorderColor>
+              <BorderColor>12469</BorderColor>
               <Clickable>True</Clickable>
               <Height>29</Height>
               <ID>1</ID>
@@ -1890,9 +955,9 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>27</Height>
+                <Height>36</Height>
                 <ID>0</ID>
-                <Image>2100</Image>
+                <Image>160</Image>
                 <Left>1</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2101</MouseoverImage>
@@ -1906,7 +971,7 @@
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1915,9 +980,9 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>27</Height>
+                <Height>32</Height>
                 <ID>1</ID>
-                <Image>2104</Image>
+                <Image>162</Image>
                 <Left>33</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2105</MouseoverImage>
@@ -1940,9 +1005,9 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>27</Height>
+                <Height>32</Height>
                 <ID>2</ID>
-                <Image>2108</Image>
+                <Image>161</Image>
                 <Left>65</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2109</MouseoverImage>
@@ -1956,7 +1021,7 @@
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>26</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1965,23 +1030,23 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>27</Height>
+                <Height>26</Height>
                 <ID>3</ID>
-                <Image>2112</Image>
+                <Image>159</Image>
                 <Left>97</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2113</MouseoverImage>
                 <Name>btnIconTalk</Name>
                 <NewModeNumber>3</NewModeNumber>
                 <OnClick />
-                <PushedImage>2114</PushedImage>
+                <PushedImage>159</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>36</Width>
                 <ZOrder>3</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -1992,7 +1057,7 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>4</ID>
-                <Image>2120</Image>
+                <Image>158</Image>
                 <Left>130</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2121</MouseoverImage>
@@ -2006,7 +1071,7 @@
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>32</Width>
+                <Width>30</Width>
                 <ZOrder>4</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -2027,7 +1092,7 @@
                 <PushedImage>2126</PushedImage>
                 <Text>(INVSHR)</Text>
                 <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
+                <TextColor>12469</TextColor>
                 <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
@@ -2139,7 +1204,7 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>2169</BackgroundImage>
+              <BackgroundImage>154</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
               <Height>133</Height>
@@ -2160,17 +1225,17 @@
                 <CharacterID>-1</CharacterID>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>87</Height>
+                <Height>150</Height>
                 <ID>0</ID>
-                <ItemHeight>21</ItemHeight>
-                <ItemWidth>21</ItemWidth>
-                <Left>8</Left>
+                <ItemHeight>25</ItemHeight>
+                <ItemWidth>25</ItemWidth>
+                <Left>11</Left>
                 <Locked>False</Locked>
                 <Name>invCustom</Name>
-                <Top>8</Top>
+                <Top>28</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>174</Width>
+                <Width>128</Width>
                 <ZOrder>0</ZOrder>
               </GUIInventory>
               <GUIButton>
@@ -2179,10 +1244,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>27</Height>
+                <Height>2714</Height>
                 <ID>1</ID>
                 <Image>2116</Image>
-                <Left>39</Left>
+                <Left>40</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2117</MouseoverImage>
                 <Name>btnInvSelect</Name>
@@ -2192,7 +1257,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>101</Top>
+                <Top>111</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>32</Width>
@@ -2207,7 +1272,7 @@
                 <Height>27</Height>
                 <ID>2</ID>
                 <Image>2104</Image>
-                <Left>4</Left>
+                <Left>11</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2105</MouseoverImage>
                 <Name>btnInvLook</Name>
@@ -2217,7 +1282,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>101</Top>
+                <Top>111</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>32</Width>
@@ -2232,7 +1297,7 @@
                 <Height>19</Height>
                 <ID>3</ID>
                 <Image>2160</Image>
-                <Left>147</Left>
+                <Left>68</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnInvOK</Name>
@@ -2242,61 +1307,11 @@
                 <Text>Close</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>19248</TextColor>
-                <Top>107</Top>
+                <Top>111</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>71</Width>
                 <ZOrder>3</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>27</Height>
-                <ID>4</ID>
-                <Image>2144</Image>
-                <Left>188</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2145</MouseoverImage>
-                <Name>btnInvDown</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnInvDown_Click</OnClick>
-                <PushedImage>2146</PushedImage>
-                <Text xml:space="preserve">New Button</Text>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>71</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>30</Width>
-                <ZOrder>4</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>27</Height>
-                <ID>5</ID>
-                <Image>2147</Image>
-                <Left>188</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2148</MouseoverImage>
-                <Name>btnInvUp</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnInvUp_Click</OnClick>
-                <PushedImage>2149</PushedImage>
-                <Text xml:space="preserve">New Button</Text>
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>5</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>30</Width>
-                <ZOrder>5</ZOrder>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -3051,7 +2066,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>0</ID>
-                <Image>17</Image>
+                <Image>169</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -3066,7 +2081,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>1</ID>
-                <Image>12</Image>
+                <Image>163</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -3081,7 +2096,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>2</ID>
-                <Image>19</Image>
+                <Image>171</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -3096,7 +2111,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>3</ID>
-                <Image>14</Image>
+                <Image>165</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -3111,7 +2126,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>4</ID>
-                <Image>15</Image>
+                <Image>167</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -3126,7 +2141,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>5</ID>
-                <Image>16</Image>
+                <Image>168</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -3141,7 +2156,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>6</ID>
-                <Image>18</Image>
+                <Image>170</Image>
                 <Left>40</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -3156,7 +2171,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>7</ID>
-                <Image>13</Image>
+                <Image>164</Image>
                 <Left>40</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -3745,7 +2760,7 @@
             <ScriptName>cEgo</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>52</SpeechColor>
+            <SpeechColor>11899</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>213</StartX>
             <StartY>166</StartY>
@@ -3829,7 +2844,7 @@
             <ScriptName>cTiff</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>13763</SpeechColor>
+            <SpeechColor>64543</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>150</StartX>
             <StartY>157</StartY>
@@ -3842,7 +2857,7 @@
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cTiff_Talk</Event>
               <Event Index="3">cTiff_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
@@ -3871,7 +2886,7 @@
             <ScriptName>cJess</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12722</SpeechColor>
+            <SpeechColor>52287</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>224</StartX>
             <StartY>160</StartY>
@@ -3900,48 +2915,6 @@
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
             <ID>4</ID>
-            <IdleAnimationDelay>4</IdleAnimationDelay>
-            <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
-            <MovementSpeedX>0</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>1</NormalView>
-            <Properties />
-            <RealName>Griaamore</RealName>
-            <ScriptName>cGria</ScriptName>
-            <Solid>True</Solid>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
-            <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
-            <ThinkingView>0</ThinkingView>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-          <Character>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
-            <BlinkingView>0</BlinkingView>
-            <Clickable>True</Clickable>
-            <DiagonalLoops>True</DiagonalLoops>
-            <ID>5</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
             <IdleView>6</IdleView>
@@ -3983,7 +2956,7 @@
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
-            <ID>6</ID>
+            <ID>5</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
             <IdleView>8</IdleView>
@@ -3997,7 +2970,7 @@
             <ScriptName>cBurnjess</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>63488</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>267</StartX>
             <StartY>163</StartY>
@@ -4025,7 +2998,7 @@
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
-            <ID>7</ID>
+            <ID>6</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
             <IdleView>9</IdleView>
@@ -4039,7 +3012,7 @@
             <ScriptName>cSouls</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>990</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>174</StartX>
             <StartY>118</StartY>
@@ -4064,12 +3037,12 @@
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
             <AnimationDelay>4</AnimationDelay>
-            <BlinkingView>0</BlinkingView>
+            <BlinkingView>10</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
-            <ID>8</ID>
-            <IdleAnimationDelay>4</IdleAnimationDelay>
-            <IdleDelay>20</IdleDelay>
+            <ID>7</ID>
+            <IdleAnimationDelay>2</IdleAnimationDelay>
+            <IdleDelay>1</IdleDelay>
             <IdleView>10</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
@@ -4109,10 +3082,10 @@
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
-            <ID>9</ID>
+            <ID>8</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
+            <IdleView>15</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -4125,9 +3098,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <StartX>255</StartX>
+            <StartY>204</StartY>
+            <StartingRoom>9</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -4151,7 +3124,7 @@
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
-            <ID>10</ID>
+            <ID>9</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
             <IdleView>14</IdleView>
@@ -4165,7 +3138,7 @@
             <ScriptName>cHand</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>61005</SpeechColor>
             <SpeechView>0</SpeechView>
             <StartX>160</StartX>
             <StartY>200</StartY>
@@ -4177,7 +3150,7 @@
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0">cHand_Look</Event>
-              <Event Index="1" />
+              <Event Index="1">cHand_Interact</Event>
               <Event Index="2">cHand_Talk</Event>
               <Event Index="3">cHand_UseInv</Event>
               <Event Index="4" />
@@ -4247,17 +3220,18 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cBurnjess:Why have you summoned me girl.
-cEgo:Hello my love. You will be my little helper tonight.
+cEgo:Hello my darling. You will be my little helper tonight.
 cBurnjess:What am I to help you with.
 cEgo:I need several items that only you can get.
 cBurnjess:You can't get items for free. You must exchange something with me in return.
 cEgo:Sounds like a plan.
 return
 @1
-cBurnjess:That's easy to acquire. Give me something of low value.
+cBurnjess:That's easy to acquire. Give me some of your blood girl.
 return
 @2
-cBurnjess:That requires something of value girl.
+cBurnjess:That requires something of value girl. Bring me the egg that only grows in heat.
+cEgo:The egg that only grows in heat huh? I think I have what you're looking for.
 stop]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -4298,10 +3272,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>13</HotspotX>
-        <HotspotY>12</HotspotY>
+        <HotspotX>16</HotspotX>
+        <HotspotY>18</HotspotY>
         <ID>0</ID>
-        <Image>25</Image>
+        <Image>160</Image>
         <Name xml:space="preserve">Walk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -4311,10 +3285,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>12</HotspotX>
-        <HotspotY>13</HotspotY>
+        <HotspotX>15</HotspotX>
+        <HotspotY>15</HotspotY>
         <ID>1</ID>
-        <Image>80</Image>
+        <Image>162</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -4324,10 +3298,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>10</HotspotX>
-        <HotspotY>14</HotspotY>
+        <HotspotX>15</HotspotX>
+        <HotspotY>17</HotspotY>
         <ID>2</ID>
-        <Image>84</Image>
+        <Image>161</Image>
         <Name>Interact</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -4337,10 +3311,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>13</HotspotX>
+        <HotspotX>16</HotspotX>
         <HotspotY>13</HotspotY>
         <ID>3</ID>
-        <Image>22</Image>
+        <Image>159</Image>
         <Name xml:space="preserve">Talk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -4757,7 +3731,7 @@ return
           <Type>int</Type>
         </GlobalVariable>
         <GlobalVariable>
-          <DefaultValue>1</DefaultValue>
+          <DefaultValue>3</DefaultValue>
           <Name>WaitGUI</Name>
           <Type>int</Type>
         </GlobalVariable>
@@ -6624,6 +5598,201 @@ return
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="159" Width="36" Height="26" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\icon.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>26</ImportHeight>
+                          <ImportWidth>36</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="160" Width="30" Height="36" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\heel cursor2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>36</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="161" Width="26" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\hand cursor.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>32</ImportHeight>
+                          <ImportWidth>26</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="162" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\eye cursor.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>32</ImportHeight>
+                          <ImportWidth>32</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="163" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_bottomleft.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="164" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_bottommiddle.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="165" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_bottomright.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="166" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_center.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="167" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_middleleft.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="168" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_middleright.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="169" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_Topleft.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="170" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_Topmiddle.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="171" Width="40" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Textbox_Topright.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>14</ImportHeight>
+                          <ImportWidth>40</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                   <SpriteFolder Name="Text box">
@@ -8395,6 +7564,201 @@ return
                           <ImportAlphaChannel>True</ImportAlphaChannel>
                         </Source>
                       </Sprite>
+                      <Sprite Slot="146" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open8-8.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="147" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open1-1.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="148" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open2-2.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="149" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open3-3.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="150" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open4-4.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="151" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open5-5.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="152" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open6-6.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="153" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open7-7.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="154" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open8-8.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="155" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open5-5.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="156" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open6-6.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="157" Width="150" Height="150" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\Letter_open7-7.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>150</ImportHeight>
+                          <ImportWidth>150</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                      <Sprite Slot="158" Width="30" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                        <Source>
+                          <FileName>C:\Users\apoteat1\Documents\H6H_Assets\LetterICON.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>27</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>False</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>LeaveAsIs</ImportMethod>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
@@ -9826,6 +9190,19 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>3</ID>
+                <Index>5</Index>
+                <ScriptName>aCut</ScriptName>
+                <SourceFileName>C:\Users\apoteat1\Downloads\Cut.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-11-01 17:25:42Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
                 <BundlingType>InGameEXE</BundlingType>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
@@ -9850,6 +9227,32 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>C:\Users\apoteat1\Downloads\H6H_Electrocuted.mp3</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-10-04 14:57:46Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>4</ID>
+                <Index>6</Index>
+                <ScriptName>aVomit</ScriptName>
+                <SourceFileName>C:\Users\apoteat1\Downloads\Vomit.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-11-01 17:25:10Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>5</ID>
+                <Index>7</Index>
+                <ScriptName>aCooking</ScriptName>
+                <SourceFileName>C:\Users\apoteat1\Downloads\Cooking.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2024-11-01 17:23:28Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
