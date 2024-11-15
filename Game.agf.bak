@@ -676,22 +676,6 @@
             <Description IsNull="True" />
             <Number>9</Number>
           </UnloadedRoom>
-          <UnloadedRoom>
-            <Description IsNull="True" />
-            <Number>6</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Description IsNull="True" />
-            <Number>8</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Description IsNull="True" />
-            <Number>5</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Description IsNull="True" />
-            <Number>10</Number>
-          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
